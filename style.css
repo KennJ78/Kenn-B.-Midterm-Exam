@@ -161,7 +161,7 @@ span{
 
 /* Custom Styles for the Gallery */
 #gallery img {
-  margin-bottom: 10px; /* Adjust margin as needed */
+  margin-bottom: 10px; 
 }
 
 
@@ -240,7 +240,7 @@ span{
 .flex-box { 
   display: flex;
   justify-content: center;
-  align-items: stretch; /* Ensures all cards stretch to the same height */
+  align-items: stretch; 
   flex-wrap: wrap;
 }
 
@@ -255,11 +255,11 @@ span{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 350px; /* Reduced the minimum height for smaller card */
+  min-height: 350px; 
 }
 
 .img {
-  height: 180px; /* Adjust the image height slightly */
+  height: 180px; 
   width: 100%;
   border-radius: 5px;
   background-size: cover;
@@ -275,7 +275,7 @@ span{
 
 .card-body {
   padding: 10px;
-  flex-grow: 1; /* Allows card body to take up available space */
+  flex-grow: 1; 
 }
 
 .card-title {
@@ -314,7 +314,7 @@ span{
 
 .form-label1 {
   flex-basis: 30%;
-  color: white; /* Ensures label and select are aligned in a row */
+  color: white; 
 }
 
 .form-select {
@@ -324,7 +324,7 @@ span{
 .mb-3 {
   display: flex;
   flex-direction: column;
-  align-items: stretch; /* Ensures label and select are aligned consistently */
+  align-items: stretch; 
 }
 
 
@@ -332,13 +332,13 @@ span{
 .flex-box { 
   display: flex;
   justify-content: center;
-  align-items: stretch; /* Ensures all cards stretch to the same height */
+  align-items: stretch; 
   flex-wrap: wrap;
 }
 
 .card {
   background: #2b2e33;
-  width: 280px; /* Increased the width of the card */
+  width: 280px; 
   margin: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
@@ -347,11 +347,11 @@ span{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 350px; /* Maintained the minimum height */
+  min-height: 350px; 
 }
 
 .img {
-  height: 180px; /* Adjust the image height slightly */
+  height: 180px; 
   width: 100%;
   border-radius: 5px;
   background-size: cover;
@@ -367,7 +367,7 @@ span{
 
 .card-body {
   padding: 10px;
-  flex-grow: 1; /* Allows card body to take up available space */
+  flex-grow: 1; 
 }
 
 .card-title {
@@ -406,7 +406,7 @@ span{
 
 .form-label1 {
   flex-basis: 30%;
-  color: white; /* Ensures label and select are aligned in a row */
+  color: white; 
 }
 
 .form-select {
@@ -416,7 +416,7 @@ span{
 .mb-3 {
   display: flex;
   flex-direction: column;
-  align-items: stretch; /* Ensures label and select are aligned consistently */
+  align-items: stretch; 
 }
 
 
@@ -528,6 +528,7 @@ span{
 @media (max-width: 768px) {
   #testimonials {
     padding: 20px 15px;
+    padding-top: 30px;
   }
 
 z
@@ -543,6 +544,7 @@ z
 @media (max-width: 576px) {
   #testimonials {
     padding: 15px 10px;
+    padding-top: 30px;
   }
 
 
